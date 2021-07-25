@@ -1,0 +1,49 @@
+body{
+    background-color:whitesmoke;
+}
+#container{
+    width: 50%;
+    margin: 0px auto;
+    background-color: aliceblue;
+}
+
+    
+
+.entries {
+    background: #FFF;
+    padding: 0 0 24px 0;
+  }
+  
+  h1 {
+    background: #B8C1C8;
+    border-bottom: 1px solid #989EA4;
+    border-top: 1px solid #717D85;
+    color:black;
+    font-family: 'Lobster', cursive;
+    font-size:25px;
+    margin: 0px;
+    padding: 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    text-align: center;
+  }
+  
+  h3 {
+    background-color: black;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 12px;
+    white-space: nowrap;
+    color:white;
+    border-bottom: 1px solid #CCC;
+  }
+  
+ 
+
+  h3:hover{
+      color: yellow;
+      border-bottom:1px solid yellow;
+  }
