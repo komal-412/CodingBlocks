@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap');
+
+body {
+    background-image: url('https://image.freepik.com/free-vector/soft-blue-white-3d-hexagons-texture-background_41814-310.jpg'); /* The image used */
+    background-color: #cccccc; 
+    height: 200px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed;
+  }
+
+#total{
+    
+    width: 65%;
+    margin: 10px auto;
+    border-radius: 6px;
+    background-color: #e3f2fd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.heading{
+    text-align: center;
+    color:#1d3557;
+    font-family:'Josefin Sans', sans-serif ;
+}
+.input{
+   
+    border-radius: 6px;
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #1d3557;
+
+}
+
+
+
+.input input{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 80%;
+    height: 40px;
+    margin: 2%;
+    font-size: 1.2rem;
+    border-radius: 4%;
+    transition: 500ms;
+}
+
+.input input:hover{
+    transform: scale(1.01,1.01);
+}
+
+span{
+    margin: auto auto;
+}
+
+.input button{
+   cursor: pointer;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    transition: 500ms;
+    /* width: 7%; */
+    height: 80%;
+    color: #1d3557;
+    background-color: white;
+    margin: auto auto;
+    
+}
+
+.input button span{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.input button:hover{
+    transform: scale(1.05,1.05);
+}
+
+.output{
+    width: 95%;
+    margin: 10px auto;
+}
+
+#list{
+    list-style: none;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+.list-items{
+    /*height: 50px;*/
+    margin-bottom: 10px;
+    background-color: #0077B6;
+    border-radius: 6px;
+    width: 100%;
+    padding: 0.1rem;
+}
+
+.div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    height: 100%;
+    padding: 0.8rem;
+
+
+}
+
+.divText{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    margin: auto 10px;
+    color: white;
+    word-break:break-all;
+    
+}
+
+.divBtn{
+
+    display:flex;
+    flex-direction: row;
+
+}
+
+.funcBtn i{
+
+    font-size: 1rem;
+    text-align: center;
+    line-height: 50%;
+
+}
+
+.funcBtn{
+     cursor: pointer;
+    margin: auto 0.5rem;
+    border-radius: 5px;
+    /* height: 70%; */
+    transition: 500ms;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: #1d3557;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+
+.divBtn button:hover{
+    transform: scale(1.05,1.05);
+    
+}
+
+.editTask{
+   outline: none;
+   width:100%;
+   border-radius: 6px;
+    height: 100%;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 948px) {
+    .input{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+ 
+    .input button{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+
+    .div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divText{
+        padding: 0.3rem;
+    }
+
+    .divBtn{
+        padding:0.3rem;
+    }
+ 
+ }
